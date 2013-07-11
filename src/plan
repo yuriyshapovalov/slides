@@ -1,2 +1,4 @@
 1. .NET assemblies, modules, etc.
 2. Garbage Collection approaches
+3. Type inference in C# (var and dynamics)
+
