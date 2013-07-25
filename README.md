@@ -24,4 +24,11 @@ Presentation List
         <td> </td>
         <td><a href="http://youtube.com/">link</a></td>
     </tr>
+    <tr>
+        <td>Design Fault Tolerant and Resilient Applications (russian) </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><a href="http://www.youtube.com/watch?v=kS76ZWhG1xg">link</a></td>
+    </tr>
 </table>
