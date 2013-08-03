@@ -14,7 +14,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="../../lib/css/reveal.min.css">
+		<link rel="stylesheet" href="../../lib/css/reveal_default.css">
 		<link rel="stylesheet" href="../../lib/css/theme/my_default.css" id="theme">
 
 		<!-- For syntax highlighting -->
@@ -37,23 +37,37 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h2>Garbage Collection in .NET</h2>
+					<h2 class="top-margin200">Garbage Collection in .NET</h2>
                     <h6>comparing with Java, Python and JavaScript approaches</h6>
-					<p class="top-margin200">
+					<p class="top-margin200" style="text-align:center">
 						<small>Author <a href="http://yuriyshapovalov.com">Yuriy Shapovalov</a> / <a href="http://twitter.com/YuriyShapovalov">@YuriyShapovalov</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Agenda</h2>
+					<h2 class="title">Agenda</h2>
 
                     <ul>
                         <li>Memory allocation process</li>
                         <li>Generations</li>
                         <li>Benefits and disadvantages</li>
                     </ul>
-					
+
+                    <aside class="notes">
+                        - First of all we consider a typical way of memory allocation in managed application.
+                    </aside>
 				</section>
+
+                <section data-markdown>
+                    <h2 class="title">Memory allocation</h2>
+
+                    <p>Let's create some obhect</p>
+                    <pre>
+                        <code>
+                            MyObject myobj = new MyObject();
+                        </code>
+                    </pre>
+                </section>
 
                 <section id="aboutme"></section>
                 <section id="copyrights"></section>
