@@ -1,0 +1,36 @@
+__________________________________________________________________________
+GC in Python
+
+Generational Reference Countting
+
+Has 3 generations
+Using reference counting with specific procedure of cycles handling.
+
+http://arctrix.com/nas/python/gc/
+http://www.digi.com/wiki/developer/index.php/Python_Garbage_Collection
+http://docs.python.org/2/library/gc.html
+http://docs.python.org/2/c-api/gcsupport.html
+
+__________________________________________________________________________
+* GC in JavaScript (V8 as example)
+
+- Nongenerational mark-and-sweep.
+
+- Every objects in scope is called a "scavenger". GC create a "scav" list of this object.
+- When GC runs, it mark every object, variable, string, etc.
+- Then, it clear the mark from objects in "scav" list, and the transitive closures of scavenger references.
+- At this point we know that all the memory still marked is allocated memory which cannot be reached by any path from any in-scope variable.
+
+
+__________________________________________________________________________
+* GC Mozilla Firefox (SpiderMonkey)
+
+- Incremental (Tracing) Garbage Collection
+
+Allows eliminate downtimes during garbage collecting.
+
+GC usually happen every 5 seconds.
+
+"Incremental garbage collection fixes the problem by dividing the work of a GC into smaller pieces. Rather than do a 500 millisecond garbage collection, an incremental collector might divide the work into fifty slices, each taking 10ms to complete. In between the slices, Firefox is free to respond to mouse clicks and draw animations."
+ -http://blog.mozilla.org/javascript/2012/08/28/incremental-gc-in-firefox-16/
+
