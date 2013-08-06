@@ -1,7 +1,7 @@
 __________________________________________________________________________
 GC in Python
 
-Generational Reference Countting
+Generational Reference Counting
 
 Has 3 generations
 Using reference counting with specific procedure of cycles handling.
