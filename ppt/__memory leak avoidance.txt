@@ -1,0 +1,1 @@
+Issue become real in production phase. Because application starts working without downtime.
