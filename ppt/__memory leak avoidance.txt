@@ -1,1 +1,31 @@
+Time scope: 30 min presentation (10 minutes Q&A)
+
+__ Intro 5 minutes
+
+2 (28)	: Subject introduction. Personal introduction. Interest for non .NET developers. Sharing presentation plan.
+
+1 (27)	: Description of garbage collector as a term and brief history. Emulating infinite memory.
+
+1 (26)	: Working with unmanaged resources. Problem it can cause on production server with high availability. 
+
+1 (25)	: Memory profiling tools overview.
+
+__ Core 20 minutes
+
+5 (20) 	: Description of garbage collector in .net. Finalization. N-Reachable queue. Generations.
+
+5 (15)	: Problems in enterprise applications
+
+3 (12)	: Memory leak description. General theory intro, how it is represented in memory.
+
+5 (7)	: Memory leaks root causes. Action to do to not get leak.
+
+5 (2)	: Profiling tools
+
+__ Conclusion 2 minutes
+
+
 Issue become real in production phase. Because application starts working without downtime.
+
+________ Questions:
+Q: What to do after we handle memory leak on production server with high availability?
