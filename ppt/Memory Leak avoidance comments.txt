@@ -1,0 +1,28 @@
+Boring, no interaction with audience.
+Shold be stroy
+
+Content________
+
+More referencing to .NET
+Native Heap and Unmanaged Heap mixed terms
+Examples of unmanaged resources
+CLR transcription
+Will be good to start from problem
+Server Mode vs. Workstation Mode
+Memory Leak sources instead of Types
+
+Slides __________
+
+Read text. Decrease text which you are read.
+Add animation
+Add starting slide with personal information
+Reduce "brownian motion"
+funny images
+Highlight examples
+keep color constant
+Question slide
+
+Timing _______
+
+currently 21 minutes (should be 30)
+Speach rehearsal 4-5 times (start to end)
