@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../lib/dist/reset.css">
+		<link rel="stylesheet" href="../lib/dist/reveal.css">
+		<link rel="stylesheet" href="../lib/dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../lib/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Hyperconverged Infrastructure by Azure Stack</h1>
+					<p>
+						<small>Created by <a href="http://yuriyshapovalov.com">Yuriy Shapovalov</a></small>
+					</p>
+					<p>
+						<small>Solution Architect at EPAM Systems</small>
+					</p>
+				</section>
+
+				<section>
+					<h3>Agenda</h3>
+					<ul>
+						<li>What it is?</li>
+						<li>What can I use Azure Stack HCI for?</li>
+						<li>Scale and performance concerns</li>
+						<li>Security concerns</li>
+						<li>Purchasing, Licencing, Pricing</li>
+					</ul>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="../lib/dist/reveal.js"></script>
+		<script src="../lib/plugin/notes/notes.js"></script>
+		<script src="../lib/plugin/markdown/markdown.js"></script>
+		<script src="../lib/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
